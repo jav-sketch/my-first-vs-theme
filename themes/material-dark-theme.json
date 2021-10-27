@@ -1,0 +1,25 @@
+{
+    "name": "Material Theme Dark",
+    "tyoe": "dark",
+
+    "tokenColors": [
+        {
+            "settings":{
+                "background": "#212121",
+                "foreground":"#ffffff"
+            }
+        },
+        {
+            "name": "Comment",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment",
+                "string.quoted.docstring"
+            ],
+            "settings": {
+                "fontstyle": "italic",
+                "foreground": "#546E7A"
+            }
+        }
+    ]
+}
