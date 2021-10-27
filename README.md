@@ -1,1 +1,1 @@
-# VS Code Color Theme
+# Material Dark Theme
