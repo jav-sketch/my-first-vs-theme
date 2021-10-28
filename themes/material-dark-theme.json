@@ -20,6 +20,85 @@
                 "fontstyle": "italic",
                 "foreground": "#546E7A"
             }
+        },
+        {
+            "name": "PHP Constants",
+            "scope":[
+                "constant.other.php"
+            ],
+            "settings":{
+                "foreground": "#FFCB6B"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": [
+                "variable",
+                "strind constant.other.placeholder"
+            ],
+            "settings": {
+            "foreground": "#EEFFFF"
+            }
+        },
+        {
+            "name": "Colors",
+            "scope":[
+                "constant.other.color"
+            ],
+            "settings":{
+                "foreground":"#ffffff"
+            }
+        },
+        {
+            "name": "Invalid",
+            "scope":[
+                "invalid",
+                "invalid.illegal"
+            ],
+            "settings":{
+                "foreground": "FF5370"
+            }
+        },
+        {
+            "name": "Keyword, Storage",
+            "scope":[
+                "keyword",
+                "storage.type",
+                "storage.modifier"
+            ],
+            "settings":{
+                "foreground": "#C792EA"
+            }
+        },
+        {
+            "name":"Keyword, Storage",
+            "scope":[
+                "keyword",
+                "storage"
+            ],
+            "settings":{
+                "fontstyle": "italic"
+            }
+        },
+        {
+            "name": "Operator, Misc",
+            "scope":[
+                "keyword.control",
+                "constant.other.color",
+                "punctuation",
+                "meta.tag",
+                "punctuation.definition.tag",
+                "punctuation.separator.inheritance.php",
+                "punctuation.definition.tag.html",
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html",
+                "punctation.section.embedded",
+                "keyword.other.template",
+                "keyword.other.substitution"
+            ],
+            "settings":{
+                "foreground": "#89DDFF"
+            }
         }
     ]
 }
